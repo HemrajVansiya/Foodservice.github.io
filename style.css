@@ -1,0 +1,103 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Homepage */
+.services {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menu Page */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Tracking Page */
+.tracking {
+    padding: 20px;
+    text-align: center;
+}
+
+.status {
+    background-color: #d3d3d3;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.reviews {
+    padding: 20px;
+}
+
+.review {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Back Button Styling */
+.back-button {
+    text-align: center;
+    margin: 20px 0;
+}
