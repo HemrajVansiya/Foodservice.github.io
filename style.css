@@ -42,13 +42,13 @@ h2 {
     background-color: #555;
 }
 
-/* Homepage */
+
 .services {
     padding: 20px;
     text-align: center;
 }
 
-/* Menu Page */
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +71,7 @@ h2 {
     border-radius: 5px;
 }
 
-/* Tracking Page */
+
 .tracking {
     padding: 20px;
     text-align: center;
@@ -96,8 +96,132 @@ h2 {
     margin-top: 10px;
 }
 
-/* Back Button Styling */
+
 .back-button {
     text-align: center;
     margin: 20px 0;
+}
+
+/* Photos Page */
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.photo-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    width: 200px; /* Adjust as needed */
+}
+
+.photo-item img {
+    width: 100%; /* Ensures the image fills the container */
+    height: 150px; /* Sets a consistent height */
+    object-fit: cover; /* Crops the image to fit without distortion */
+    border-radius: 5px;
+}
+
+
+
+.drivers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.driver-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+
+.driver-item img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.reviews {
+    padding: 20px;
+}
+
+.review-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* About Page */
+.about {
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Page */
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact form {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #e5533d;
 }
